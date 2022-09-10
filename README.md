@@ -43,9 +43,6 @@ To download the original dataset seperately refer to the following links:
 **Preparation:** Download the dataset from above and unpack the zip folder.
 Select the directory in which images are stored and perform bias correction for accurate results.
 
-## Disclaimer
-Since the publication of the paper, we have substantially refactored the codebase, with many usability improvements.
-
 ## BibTex Citation
 Please consider citing our paper if you use any of the ideas presented in the paper or code from this repository:
 ```
