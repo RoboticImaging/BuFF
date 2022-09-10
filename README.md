@@ -12,3 +12,6 @@ Note: The code and visualisations of our ICRA2021 paper "Burst imaging for light
 <p align="center">
   <img src="https://github.com/RoboticImaging/BuFF/blob/main/assets/architecture.png" width="350" title="BuFF_architecture">
 </p>
+
+## Installation
+BuFF is built with MATLAB and tested in >= R2021a versions. This repository includes code for both variations of BuFF feature extraction. Further dependencies required for evaluation are listed in 'requirements.txt':
