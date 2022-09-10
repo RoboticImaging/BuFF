@@ -14,7 +14,7 @@ Note: The code and visualisations of our ICRA2021 paper "Burst imaging for light
 </p>
 
 ## Installation
-BuFF is built with MATLAB and tested on >= R2021a versions. This repository includes code for both variations of BuFF feature extraction. Further dependencies required for evaluation are listed in 'requirements.txt':
+BuFF is built with MATLAB and tested on >= R2021a versions. This repository includes code for both variations of BuFF feature extraction. We extend SIFT feature extraction to find features in a higher dimensional search space. Our implementation is inspired by SIFT implementation by [VLFeat Library](https://www.vlfeat.org/) and [LiFF implementation](https://github.com/doda42/LiFF). The functional dependencies required for evaluation and more details are discussed in 'requirements.txt':
 
 #### Clone the Git repository.  
 ```bash
