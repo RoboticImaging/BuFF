@@ -34,11 +34,11 @@ To download the original dataset seperately refer to the following links:
 | Images        |       Version     | Size  |
 | ------------- |:-------------:| -----:|
 | Bias Frames     | Ground truth | dataset (aGB) |
-| Burst with 1D apparent motion    | ^^    |  dataset (aGB) |
-| Burst with 2D apparent motion | ^^     | dataset (aGB)  |
+| Burst with 1D apparent motion    | Ground truth |  dataset (aGB) |
+| Burst with 2D apparent motion | Ground truth | dataset (aGB)  |
 | Bias Frames     | Conventional Noisy | dataset (aGB) |
-| Burst with 1D apparent motion    | ^      |  dataset (aGB) |
-| Burst with 2D apparent motion | ^      | dataset (aGB)  |
+| Burst with 1D apparent motion    | Conventional Noisy |  dataset (aGB) |
+| Burst with 2D apparent motion | Conventional Noisy | dataset (aGB)  |
 
 **Preparation:** Download the dataset from above and unpack the zip folder.
 Select the directory in which images are stored and perform bias correction for accurate results.
