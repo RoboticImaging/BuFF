@@ -21,3 +21,24 @@ BuFF is built with MATLAB and tested on >= R2021a versions. This repository incl
 git clone https://github.com/RoboticImaging/BuFF/
 cd BuFF/
 ```
+## Overview
+The toolkit consists of the following sub-modules.  
+ - [assets](assets): Contains the source files required for creating the repository.
+ - [common](common): Common scripts to run both variants of feature extraction on standard datasets. 
+ - [main](main): Scripts to run two variants of the feature extractor: Burst with 1D apparent motion and Burst with 2D apparent motion. 
+ - [utils](utils): General utility functions for e.g. burst visualisation, histogram equalization.
+
+## Datasets
+We evaluate our feature extractor on a dataset collected in light-constrained environment using UR5e robotic arm. Download an example burst of bias-corrected dataset here (aGB).
+To download the original dataset seperately refer to the following links:
+| Images        |       Version     | Size  |
+| ------------- |:-------------:| -----:|
+| Bias Frames     | Ground truth | dataset (aGB) |
+| Burst with 1D apparent motion    | ^      |  dataset (aGB) |
+| Burst with 2D apparent motion | ^      | dataset (aGB)  |
+| Bias Frames     | Conventional Noisy | dataset (aGB) |
+| Burst with 1D apparent motion    | ^      |  dataset (aGB) |
+| Burst with 2D apparent motion | ^      | dataset (aGB)  |
+
+**Preparation:** Download the dataset from above and unpack the zip folder.
+Select the directory in which images are stored and perform bias correction for accurate results.
