@@ -31,7 +31,7 @@ The toolkit consists of the following sub-modules.
 ## Datasets
 We evaluate our feature extractor on a dataset collected in light-constrained environment using UR5e robotic arm. Download an example burst of bias-corrected dataset here (aGB).
 To download the original dataset seperately refer to the following links:
-| Images        |       Version     | Size  |
+| Images        |       Version     | Size |
 | ------------- |:-------------:| -----:|
 | Bias Frames     | Ground truth | dataset (aGB) |
 | Burst with 1D apparent motion    | Ground truth |  dataset (aGB) |
