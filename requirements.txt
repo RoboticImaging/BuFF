@@ -10,3 +10,6 @@ https://www.vlfeat.org/
 
 We use the recent refactored version of burst with merge for reconstruction:
 https://github.com/RoboticImaging/LightConstrainedSfM
+
+For feature performance evaluation, we follow:
+https://github.com/ahojnnes/local-feature-evaluation/blob/master/INSTRUCTIONS.md
