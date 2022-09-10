@@ -28,7 +28,7 @@ The toolkit consists of the following sub-modules.
  - [main](main): Scripts to run two variants of the feature extractor: Burst with 1D apparent motion and Burst with 2D apparent motion. 
  - [utils](utils): General utility functions for e.g. burst visualisation, histogram equalization.
 
-## Datasets
+## Dataset
 We evaluate our feature extractor on a dataset collected in light-constrained environment using UR5e robotic arm. Download an example burst of bias-corrected dataset here (aGB).
 To download the original dataset seperately refer to the following links:
 | Images        |       Version     | Size |
@@ -42,3 +42,19 @@ To download the original dataset seperately refer to the following links:
 
 **Preparation:** Download the dataset from above and unpack the zip folder.
 Select the directory in which images are stored and perform bias correction for accurate results.
+
+## Disclaimer
+Since the publication of the paper, we have substantially refactored the codebase, with many usability improvements.
+
+## BibTex Citation
+Please consider citing our paper if you use any of the ideas presented in the paper or code from this repository:
+```
+@inproceedings{ravendran2022burst,
+  author    = {Ahalya Ravendran and
+               Mitch Bryson and
+               Donald G Dansereau},
+  title     = {{BuFF: Burst Feature Finder for Light-Constrained 3D Reconstruction}},
+  booktitle = {arXiv},
+  year      = {2022},
+}
+```
