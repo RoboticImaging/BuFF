@@ -34,8 +34,8 @@ To download the original dataset seperately refer to the following links:
 | Images        |       Version     | Size  |
 | ------------- |:-------------:| -----:|
 | Bias Frames     | Ground truth | dataset (aGB) |
-| Burst with 1D apparent motion    | ^      |  dataset (aGB) |
-| Burst with 2D apparent motion | ^      | dataset (aGB)  |
+| Burst with 1D apparent motion    | ^^    |  dataset (aGB) |
+| Burst with 2D apparent motion | ^^     | dataset (aGB)  |
 | Bias Frames     | Conventional Noisy | dataset (aGB) |
 | Burst with 1D apparent motion    | ^      |  dataset (aGB) |
 | Burst with 2D apparent motion | ^      | dataset (aGB)  |
