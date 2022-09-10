@@ -10,5 +10,5 @@ We introduce burst feature finder (BuFF), **a 2D + time feature detector and des
 Note: The code and visualisations of our ICRA2021 paper "Burst imaging for light-constrained structure-from-motion" (Burst with Merge) used in this paper for comparison is available at [roboticimaging.org/BurstSfM](https://roboticimaging.org/Projects/BurstSfM/)
 
 <p align="center">
-  <img src="https://github.com/RoboticImaging/BuFF/blob/main/assets/BUFF_architecture.pdf" width="350" title="BuFF_architecture">
+  <img src="https://github.com/RoboticImaging/BuFF/blob/main/assets/architecture.png" width="350" title="BuFF_architecture">
 </p>
