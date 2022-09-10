@@ -1,0 +1,12 @@
+Burst of raw images exhibit better performance comparing to compressed images.
+We use some functions from the LFToolbox for reading raw images, histogram equalization and visualization of burst images:
+https://github.com/doda42/LFToolbox
+
+We use some functions from the Light Field Feature Toolbox as our implementation is inspired by the higher dimensional search concept for light field features
+https://github.com/doda42/LiFF
+
+We use SIFT implementation by https://www.vlfeat.org/ for feature comparison of alternative approaches during reconstruction. For more details refer:
+https://www.vlfeat.org/
+
+We use the recent refactored version of burst with merge for reconstruction:
+https://github.com/RoboticImaging/LightConstrainedSfM
