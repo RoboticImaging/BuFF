@@ -14,4 +14,10 @@ Note: The code and visualisations of our ICRA2021 paper "Burst imaging for light
 </p>
 
 ## Installation
-BuFF is built with MATLAB and tested in >= R2021a versions. This repository includes code for both variations of BuFF feature extraction. Further dependencies required for evaluation are listed in 'requirements.txt':
+BuFF is built with MATLAB and tested on >= R2021a versions. This repository includes code for both variations of BuFF feature extraction. Further dependencies required for evaluation are listed in 'requirements.txt':
+
+#### Clone the Git repository.  
+```bash
+git clone https://github.com/RoboticImaging/BuFF/
+cd BuFF/
+```
