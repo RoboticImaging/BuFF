@@ -1,0 +1,35 @@
+%% GenerateSyntheticBurst - Generating a burst from a single image by translating the image by a pixel %% 
+%% Copyright  (c) 2022 aR
+
+% To change apparent motion in pixels, and noise, change the mentioned
+% values in Tweakables section
+
+function [Image, Stack] = GenerateSyntheticBurst(FilePath, FileFormat, BurstLength)
+
+%% Tweakables
+PixelMotion = 1;
+NoiseVariance = 0;
+
+if (ExampleBurst == 1)
+Image = im2double(imread('./images/1.png'));
+if size(Image,3) > 1
+    Image = rgb2gray(im2double(imread('./images/1.png')));
+end
+    for Frame = 1:BurstLength
+    NoisyImage = Image + sqrt(NoiseVariance)*randn(size(Image));
+    StackImage = imtranslate(NoisyImage,[1*(Frame-1), 1*(Frame-1)]);
+    Stack(:,:,Frame) = StackImage(:,(PixelMotion*BurstLength)+1:end);
+    end
+else
+    Image =  im2double(imread([FilePath num2str(1) FileFormat]));
+    for Frame =1:BurstLength
+    if size(Image,3) == 1
+         Stack(:,:,Frame)  = im2double(imread([FilePath num2str(Frame) FileFormat]));
+    elseif size(Image,3) == 3
+        ax  = rgb2gray(im2double(imread([FilePath num2str(Frame) FileFormat])));
+        Stack(:,:,Frame) = ax + sqrt(0)*randn(size(ax));
+    end
+    end
+end
+    Image = Stack(:,:,5);
+end
