@@ -4,7 +4,7 @@ The common algorithms for building both BuFF variants regardless of the dimensio
 
 | Filename | Description |  
 | ---------| ----------- |
-| [Readme.md](./common/Readme.md) | Common Functions for BuFF: Readme file. |
+| [Readme.md](/common/Readme.md) | Common Functions for BuFF: Readme file. |
 | [DescriptorGeneration](./common/DescriptorGeneration.m) | Function to compute descriptor |
 | [DescriptorHistogramInterpolation](./common/DescriptorHistogramInterpolation.m) | Function for histogram assignment |
 | [GradientGeneration](./utils/GradientGeneration.m) | Function to compute gradient |
