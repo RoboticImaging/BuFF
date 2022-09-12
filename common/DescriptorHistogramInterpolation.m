@@ -1,4 +1,4 @@
-%% DescriptorHistogram Interpolation: Descriptor Assignment 
+%% Descriptor Histogram Interpolation: Descriptor Assignment 
 %% Copyright  (c) 2022 aR
  
 function [Histogram] = DescriptorHistogramInterpolation(Histogram,RowBin,ColumnBin,OrientationBin,GradientMagnitudeWeight,HistogramWidth,OrientationHistogramBins)
