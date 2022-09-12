@@ -15,4 +15,3 @@ The common algorithms for building both BuFF variants regardless of the dimensio
 | [ReadBurstRaw](./common/ReadBurstRaw.m) | Function to read raw images in a burst |
 | [Circle](./common/circle.m) | Function to plot circle with given attributes to represent features  |
 | [ResizeBurst](./common/ResizeBurst.m) | Function to resize burst images |
-| [DemoBuFF_Match](./2D/DemoBuFFMatch.m) | This demo matches two captured bursts with different viewpoint of the same scene |
