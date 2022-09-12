@@ -1,4 +1,4 @@
-## Design Selection
+## Detailed Description
 The common algorithms for building both BuFF variants regardless of the dimensional difference are in this folder.
 
 
