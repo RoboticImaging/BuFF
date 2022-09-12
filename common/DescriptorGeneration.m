@@ -1,4 +1,4 @@
-%% Descriptor Generation - Descriptor representation with thresholding
+%% Descriptor Generation - Descriptor representation with magnitude thresholding
 %% Copyright  (c) 2022 aR
 
 function [Features] = DescriptorGeneration(Features,Descriptor,DescriptorMagnitudeThreshold)
