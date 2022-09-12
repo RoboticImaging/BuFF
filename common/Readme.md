@@ -5,7 +5,6 @@ The common algorithms for building both BuFF variants regardless of the dimensio
 | Filename | Description |  
 | ---------| ----------- |
 | [Readme.md](./common/Readme.md) | Common Functions for BuFF: Readme file. |
-
 | [DescriptorGeneration](./common/DescriptorGeneration.m) | Function to compute descriptor |
 | [DescriptorHistogramInterpolation](./common/DescriptorHistogramInterpolation.m) | Function for histogram assignment |
 | [GradientGeneration](./utils/GradientGeneration.m) | Function to compute gradient |
@@ -16,5 +15,4 @@ The common algorithms for building both BuFF variants regardless of the dimensio
 | [ReadBurstRaw](./common/ReadBurstRaw.m) | Function to read raw images in a burst |
 | [Circle](./common/circle.m) | Function to plot circle with given attributes to represent features  |
 | [ResizeBurst](./common/ResizeBurst.m) | Function to resize burst images |
-
 | [DemoBuFF_Match](./2D/DemoBuFFMatch.m) | This demo matches two captured bursts with different viewpoint of the same scene |
