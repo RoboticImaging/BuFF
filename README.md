@@ -31,10 +31,10 @@ The toolkit consists of the following sub-modules.
 ## Dataset
 We evaluate our feature extractor on a dataset collected in light-constrained environment using UR5e robotic arm. Download an example burst of bias-corrected dataset [here](https://drive.google.com/drive/folders/1bfaRGw1_63pmqLzDsUPSJyRfZuIRIomO?usp=sharing) (147MB).
 To download the original dataset seperately refer to the following links:
-| Images        | Size |
-| ------------- | -----|
-| Burst with 1D apparent motion | [dataset] (44GB) including ground truth and noisy images |
-| Burst with 2D apparent motion | [dataset] (44GB) including ground truth and noisy images |
+| Images        | Dataset |
+| ------------- | ----- |
+| Burst with 2D apparent motion | dataset including ground truth and noisy images [here] (43.3GB) |
+| Burst with 1D apparent motion | dataset including ground truth and noisy images [here](https://drive.google.com/file/d/16TtcWUcTNdMd1kMLv4e9k65jlEWSqg8-/view?usp=sharing) (43.3GB) |
 
 **Preparation:** Download the dataset from above and unpack the zip folder.
 Select the directory in which images are stored and perform bias correction for accurate results.
