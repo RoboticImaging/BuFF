@@ -33,6 +33,7 @@ We evaluate our feature extractor on a dataset collected in light-constrained en
 To download the original dataset seperately refer to the following links:
 | Images        | Dataset |
 | ------------- | ----- |
+| Dataset Description | [here](https://docs.google.com/document/d/1Ht5q7aVqLPeEca0Paon0wND1FC2mDWcwRyw0BCs2ztc/edit?usp=sharing) |
 | Burst with 2D apparent motion | dataset including ground truth and noisy images [here](https://drive.google.com/file/d/1PZJmaDR7NONibRbJoyAxIZ2VrnEh9QKC/view?usp=sharing) (43.3GB) |
 | Burst with 1D apparent motion | dataset including ground truth and noisy images [here](https://drive.google.com/file/d/16TtcWUcTNdMd1kMLv4e9k65jlEWSqg8-/view?usp=sharing) (43.3GB) |
 
