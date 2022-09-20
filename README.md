@@ -29,7 +29,7 @@ The toolkit consists of the following sub-modules.
  - [utils](utils): General utility functions for e.g. burst visualisation, histogram equalization.
 
 ## Dataset
-We evaluate our feature extractor on a dataset collected in light-constrained environment using UR5e robotic arm. Download an example burst of bias-corrected dataset [here](https://drive.google.com/drive/folders/1bfaRGw1_63pmqLzDsUPSJyRfZuIRIomO?usp=sharing) (2.2GB).
+We evaluate our feature extractor on a dataset collected in light-constrained environment using UR5e robotic arm. Download an example burst of bias-corrected dataset [here](https://drive.google.com/drive/folders/1bfaRGw1_63pmqLzDsUPSJyRfZuIRIomO?usp=sharing) (2.1GB).
 To download the original dataset seperately refer to the following links:
 | Images        | Dataset |
 | ------------- | ----- |
