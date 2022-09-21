@@ -35,7 +35,7 @@ To download the complete dataset and an example seperately refer to the followin
 | ------------- | ----- |
 | Dataset description | [Read me](https://docs.google.com/document/d/1Ht5q7aVqLPeEca0Paon0wND1FC2mDWcwRyw0BCs2ztc/edit?usp=sharing) |
 | Example burst | a burst of noisy images and corresponding ground truth with 1D and 2D apparent motion [here](https://drive.google.com/file/d/11PDClfjjMdVFbSDDxLRm28E7soqPg8FV/view?usp=sharing) (2.1GB) |
-| Dataset of 10 scenes with 1D and 2D apparent motion | dataset including ground truth and noisy images [here] (80.6GB) |
+| Dataset of 10 scenes with <<br> 1D and 2D apparent motion | dataset including ground truth and noisy images [here] (80.6GB) |
 
 **Preparation:** Download the dataset from above and unpack the zip folder.
 Select the directory in which images are stored and perform bias correction for accurate results.
