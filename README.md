@@ -2,7 +2,7 @@
 
 We introduce burst feature finder (BuFF), **a 2D + time feature detector and descriptor that finds features with well defined scale and apparent motion within a burst of frames**. We reformulate the trajectory of a robot as multiple burst sequences and perform **3D reconstruction in low light**.
 
-- [BuFF: Burst Feature Finder for Light-Constrained 3D Reconstruction](https://roboticimaging.org/Papers/ravendran2022burstfeatures.pdf)
+- [BuFF: Burst Feature Finder for Light-Constrained 3D Reconstruction](https://arxiv.org/pdf/2209.09470.pdf)
 - submitted for oral presentation at ICRA 2023
 - Authors: [Ahalya Ravendran](ahalyaravendran.com/), [Mitch Bryson](https://scholar.google.com.au/citations?user=yIFgUxwAAAAJ&hl=en/)\, and [Donald G Dansereau](https://roboticimaging.org/)
 - website: [roboticimaging.org/BuFF](https://roboticimaging.org/Projects/BuFF/) with dataset details, digestable results and visualizations
