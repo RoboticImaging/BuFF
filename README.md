@@ -54,5 +54,8 @@ Please consider citing our paper if you use any of the ideas presented in the pa
 }
 ```
 
+## Update
+We have now added python support for BuFF implementation in the sub-modules [python](python)
+
 ## Acknowledgement
 We use some functions directly from [LFToolbox](https://github.com/doda42/LFToolbox) for visualisation.
