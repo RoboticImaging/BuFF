@@ -41,6 +41,9 @@ To download the complete dataset and an example seperately refer to the followin
 **Preparation:** Download the dataset from above and unpack the zip folder.
 Select the directory in which images are stored and perform bias correction for accurate results.
 
+## Update
+We have now added python support for BuFF implementation in the sub-modules [python](python)
+
 ## BibTex Citation
 Please consider citing our paper if you use any of the ideas presented in the paper or code from this repository:
 ```
@@ -53,9 +56,6 @@ Please consider citing our paper if you use any of the ideas presented in the pa
   year      = {2022},
 }
 ```
-
-## Update
-We have now added python support for BuFF implementation in the sub-modules [python](python)
 
 ## Acknowledgement
 We use some functions directly from [LFToolbox](https://github.com/doda42/LFToolbox) for visualisation.
