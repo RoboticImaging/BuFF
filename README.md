@@ -25,7 +25,7 @@ cd BuFF/
 The toolkit consists of the following sub-modules.  
  - [assets](assets): Contains the source files required for creating the repository.
  - [common](common): Common scripts to run both variants of feature extraction on standard datasets. 
- - [main](main): Scripts to run two variants of the feature extractor: Burst with 1D apparent motion and Burst with 2D apparent motion. 
+ - [main](main): Scripts to run two variants of the feature extractor: Burst with 1D apparent motion and Burst with 2D apparent motion.
  - [utils](utils): General utility functions for e.g. burst visualisation, histogram equalization.
 
 ## Dataset
@@ -43,6 +43,13 @@ Select the directory in which images are stored and perform bias correction for 
 
 ## Update
 We have now added python support for BuFF implementation in the sub-modules [python](python)
+```bash
+conda create -n buffenv
+conda activate buffenv
+pip install opencv-python numpy
+cd BuFF/python/
+python3 BuFF.py
+```
 
 ## BibTex Citation
 Please consider citing our paper if you use any of the ideas presented in the paper or code from this repository:
